@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const RentalListings = () => {
   return (
-    <div className='mx-5 md:mx-10 lg:mx-20'>
+    <div className='mx-5 md:mx-10 lg:mx-20 '>
         <div className="m-3 mt-5 md:mt-7 lg:m-4 lg:mt-24">
             <h2 className='flex justify-center font-serif mb-2 text-2xl md:text-3xl lg:text-4xl' >The Most Rental Listings</h2>
             <p className='flex justify-center text-gray-500 text-sm lg:text-xl'>Choose from over ten thousand apartments, houses, condos and townhomes for rent.</p>

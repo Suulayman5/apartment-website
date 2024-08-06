@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 const Rental = () => {
   return (
-    <div>
-        <h2 className="flex justify-center my-4 text-2xl">Explore Rentals</h2>
+    <div className='m-3 mt-5 md:mt-7 lg:m-4 lg:mt-24 mx-5 md:mx-10 lg:mx-20'>
+        <h2 className="flex justify-center font-serif mb-6 lg:mb-10 text-2xl md:text-3xl lg:text-4xl">Explore Rentals</h2>
        <div className="flex flex-col w-full lg:flex-row lg:justify-around">
         <div className="w-90 h-[20.875rem] lg:h-[23.875rem] lg:w-[300px] rounded-md m-3 shadow-lg">
           <img className='h-1/2 w-full rounded-t-md' src='/images/elevate-chicago-il-building-photo.jpg' />
